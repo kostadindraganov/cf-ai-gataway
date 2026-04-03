@@ -1,0 +1,8 @@
+# Local development variables for `wrangler dev`
+# Copy to .dev.vars and fill in your values
+
+CF_ACCOUNT_ID=<your-cloudflare-account-id>
+CF_API_TOKEN=<your-cloudflare-api-token>
+API_KEY=<generate: openssl rand -base64 32 | tr '+/' '-_' | tr -d '='>
+API_KEY_2=<optional-client-key>
+GATEWAY_CONFIG={"chatModels":[],"imageModels":[],"voiceModels":[],"utilityModels":[],"aliases":[]}
