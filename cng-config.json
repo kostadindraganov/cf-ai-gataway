@@ -1,0 +1,25 @@
+{
+  "chatModels": [],
+  "imageModels": [],
+  "voiceModels": [],
+  "utilityModels": [],
+  "aliases": [],
+  "spoofedKeys": [
+    "admin",
+    "key2"
+  ],
+  "keyNames": {},
+  "rateLimits": {
+    "admin": 60,
+    "client": 30,
+    "bob": 60
+  },
+  "users": [
+    {
+      "id": "bob",
+      "keyHash": "qBFQL3NZaYYT_oHBfdbGlC6QTZQrUQ1AlBYyZh-a4xY",
+      "role": "admin",
+      "created": "2026-03-31"
+    }
+  ]
+}

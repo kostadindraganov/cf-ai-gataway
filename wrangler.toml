@@ -22,13 +22,10 @@ binding = "AI"
 # --- Optional: KV namespace for persistent config ---
 # Requires Workers paid plan ($5/mo). Without KV, config
 # lives in memory and resets on cold start.
-#
-# Create with: wrangler kv namespace create cng-config
-# Then uncomment and fill in the ID:
-#
-# [[kv_namespaces]]
-# binding = "CONFIG"
-# id = "<namespace-id>"
+
+[[kv_namespaces]]
+binding = "CONFIG"
+id = "9eb4d049e1dc440fb00fffcd3efd6c41"
 
 # --- Optional: custom domain ---
 # [routes]
